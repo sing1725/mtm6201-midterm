@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roaster Stories</title>
+    <!-- link to google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- link to favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+       <a href="#main-skip" class="skip">Skip to main content</a>
+       <div class="head_wrapper">
+           <div class="header">
+               <img class="logo" src="images/logo.png" alt="Roaster Stories">
+               <br>
+               <div class="navigate">
+                   <nav role="menubar">
+                       <ul>
+                           <li role="menuitem"><a href="index.html">Home</a></li>
+                           <li role="menuitem"><a class="home" href="contact.html">Contact</a></li>
+                           <li role="menuitem"><a href="aboutus.html">About Us</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+       </div>
+       <hr id="header_hr">
+   </header>
+   <!-- banner area -->
+   <main role="banner">
+        <div class="main_wrapper" id="main-skip">
+            <div class="contactpage" >
+                <div class="location">
+                        <h2>Visit us at</h2>
+                        <h4>Address</h4> 
+                        <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> 
+                            <span itemprop="name">Roaster Stories</span> <br>
+                            <span itemprop="streetAddress">50 Woodridge Cresent Ottawa, ON</span> <br>
+                            <span itemprop="postalCode">K2B 7T2</span>
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.016628379059!2d-75.8135214!3d45.3484766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce00e9aaed2e6d%3A0xb62cfa5c618c2a07!2s50%20Woodridge%20Crescent%2C%20Nepean%2C%20ON%20K2B%207T1!5e0!3m2!1sen!2sca!4v1678660952573!5m2!1sen!2sca" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contactcard" itemscope itemtype="https://schema.org/LocalBusiness">
+                    <h2>For booking contact us at</h2>
+                    <h4>Contact no.</h4> 
+                    <p itemprop="telephone">+1 (343) 297-4764</p>
+                    <h4>Email</h4> 
+                    <p itemprop="email">bookyourtable@roasterstories.com</p>
+                    <picture>
+                        <source media="(min-width: 960px)" srcset="images/cafe_out.jpg">
+                        <source media="(max-width: 960px)" srcset="images/cafe_out-half.jpg">
+                        <img src="images/cafe_out.jpg" alt="cafe's outro">
+                    </picture>
+                </div>
+                <div class="details">
+                    <h2>Lets us know what are you looking for</h2>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="fullname" class="forminput"><br> 
+                    <form action="/action_page.php">
+                        <label for="quantity">Guest (1 to 8):</label>
+                        <input type="number" id="quantity" class="forminput name="quantity" min="1" max="8">
+                    </form>  
+                    <label for="message">Area of preference</label><br>
+                    <input type="text" id="message" name="message" class="formmessageinput"><br><br>  
+                    <button type="submit" class="formbutton">Book your table</button>
+                </div> 
+            </div>
+         </div>
+    </main>
+    <footer role="banner">
+        <div class="foot_wrapper">
+            <div class="foot">
+                <p>COPYRIGHT © 2023 ROASTER STORIES</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
