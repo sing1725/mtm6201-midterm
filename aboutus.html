@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roaster Stories</title>
+    <!-- link to google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- link to favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header role="banner">
+       <a href="#main-skip" class="skip">Skip to main content</a>
+       <div class="head_wrapper">
+           <div class="header">
+               <img class="logo" src="images\logo.png" alt="Roaster Stories">
+               <br>
+               <div class="navigate">
+                   <nav role="menubar">
+                       <ul>
+                           <li role="menuitem"><a href="index.html">Home</a></li>
+                           <li role="menuitem"><a href="contact.html">Contact</a></li>
+                           <li role="menuitem"><a class="home" href="aboutus.html">About Us</a></li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+       </div>
+       <hr id="header_hr">
+   </header>
+   <main role="banner">
+        <div class="main_wrapper" id="main-skip">
+            <div class="material" >
+                <h2>About Us</h2>
+                <div class="aboutus">
+                    <div class="cafebio">
+                        <p>Welcome to our Japanese cafe in Ottawa, where we're committed to providing our customers with a unique and memorable dining experience. Our menu features a wide range of authentic Japanese dishes, including sushi, ramen, bento boxes, and more. We also offer a variety of refreshing bubble teas and carefully crafted coffee, made with the finest ingredients. Our team takes great pride in preparing everything with precision and care, ensuring that every dish is both delicious and visually appealing. We're passionate about sharing the culture and flavors of Japan with our community, and we're dedicated to providing exceptional service and a warm, welcoming atmosphere for all our guests.</p>
+                    </div>
+                    <div class="barista">
+                        <!-- adding images which are responsive for different screen sizes -->
+                        <picture>
+                            <source media="(min-width: 960px)" srcset="images/aboutus.jpg">
+                            <source media="(max-width: 960px)" srcset="images/aboutus-half.jpg">
+                            <img src="images/aboutus.jpg" alt="Image of barista">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer role="banner">
+        <!-- adds wrapper to footer part to center align content -->
+            <div class="foot_wrapper">
+                <div class="foot">
+                    <p>COPYRIGHT © 2023 ROASTER STORIES</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
