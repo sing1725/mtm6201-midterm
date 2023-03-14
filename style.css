@@ -1,0 +1,414 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    background-color: #e8dcd3;
+    color: #403730;
+}
+
+.head_wrapper{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.navigate {
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+
+ul{
+    padding: 0%;
+}
+
+.navigate ul li{
+    list-style-type: none;
+}
+
+.navigate a {
+    color: #403730;
+    display: block;
+    padding: 0.7rem;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.35s ease-in-out;
+}
+
+.navigate a:hover {
+    color: #fcffff;
+    background-color: #722127;
+}
+
+.navigate a.home{
+    background-color: #3F1214;
+    color: #fcffff;
+}
+
+.skip {
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    text-decoration: none;
+    color: #0d0d0d;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+.foot{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 2rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lora', serif;
+    color: #722127;
+}
+
+#header_hr{
+        border: 1px solid #a6212b;
+        margin: 1rem auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+
+}
+
+/* home page */
+
+.welcome p{
+    display: block;
+    top: 10%;
+    bottom: 10%;
+    color: #403730;
+    font-weight: 700;
+    text-align: center;
+}
+
+.welcome{
+    background-color: #F2F2F2;
+    padding: 7rem 2.5rem;
+    margin: auto;
+
+}
+
+.welcome a{
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+    background-color: #403730;
+    color: #FCFAF4;
+    border: 0.5px solid #3F1214;
+    border-radius: 1rem;
+    transition: 0.35s ease-in-out;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+}
+
+.welcome a:hover{
+    padding: 1rem;
+    color: #403730;
+    background-color: #e8dcd3;
+    border: 0.5px solid #3F1214;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px #3F1214;
+}
+ 
+.material h2{
+    text-align: center;
+}
+
+.cafe img{
+    width: 100%;
+    margin-top: 1rem;
+    margin: 1rem auto auto auto;
+    justify-content: center;
+    display: flex;
+}
+
+.japan img{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.japan h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.japan p{
+   padding-bottom: 1rem;
+   text-align: center;
+}
+
+.japan{
+    padding: 1rem 0;
+}
+
+hr{
+    border: 1px solid #a6212b;
+    margin: auto;
+    width: 15%;
+    justify-content: center;
+    display: flex;
+}
+
+/* contact page */
+
+.contactcard {
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.contactcard hr{
+    text-align: left;
+    margin: auto;
+}
+
+.contactcard picture img{
+    width: 100%;
+
+}
+
+.forminput {
+    width: 100%;
+    height: 1.8rem;
+    font-size: 18px;
+}
+
+.forminput:focus{
+    background-color: #fbffff;
+    color: black;
+}
+
+.formmessageinput:focus{
+    background-color: #fbffff;
+    color: black;
+}
+
+.formmessageinput {
+    width: 100%;
+    font-size: 1.2rem;
+    height: 7rem;
+}
+
+.formbutton {
+    background-color: #722127;
+    color: #fbffff;
+    border: 1px solid #a6212b;
+    border-radius: 1rem;
+    transition: ease-in-out 0.5s;
+    padding: 1rem;
+    margin: 1rem auto auto auto;
+}
+
+.formbutton:hover{
+    color: #403730;
+    background-color: #FCFAF4;
+    border: 1px solid #3F1214;
+    border-radius: 3rem;
+}
+ 
+.contactcard{
+    position: relative;
+}
+
+.formbutton{
+    position: absolute;
+    margin-left: 40%;
+    transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* about us page */
+ 
+.barista{
+    justify-content: center;
+    display: flex;
+}
+
+.barista img{
+    width: 100%;
+}
+
+.barista{
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+ 
+@media screen and (min-width: 960px) {
+    .logo{
+        width: 250px;
+    }
+
+    .header{
+        display: flex;
+    }
+
+    .navigate {
+        text-align: right;
+    }
+
+    .navigate ul li {
+        display: inline-block;
+        text-decoration: none;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    .navigate a:hover {
+        color: #FCFAF4;
+        background-color: #722127;
+        padding: 1rem 4rem;
+    }
+
+    .navigate a {
+        padding: 1rem 3.5rem;
+    }
+
+    .navigate a.home {
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    header hr{
+        width: 100%;
+    }
+
+    .head_wrapper,.main_wrapper,.foot_wrapper{
+        width: 85%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .aesthetics1{grid-area: p1; width: 100%;}
+    .aesthetics2{grid-area: p2; width: 100%;}
+    .aesthetics3{grid-area: p3; width: 100%;}
+    .aesthetics4{grid-area: p4; width: 100%;}
+    
+    .cafein{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 'p1 p2'
+        'p3 p4';
+    }
+
+    .cafe img{
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        display: flex;
+    }
+
+    .bubbletea{ grid-area: j1}
+    .souffle{ grid-area: j2;}
+    .sponge{ grid-area: j3;}
+    .coffee{grid-area: j4}
+    .sushi{ grid-area: j5;}
+    .meal{ grid-area: j6;}
+
+    .japanifood{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-template-areas: 
+        'j1 j4'
+        'j5 j6'
+        'j2 j3'
+        ;
+        gap: 1.5rem;
+    }
+
+    .welcome p{
+        display: block;
+        padding: 2.5rem;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    @keyframes japanesefood{
+        0%{
+          tranform: scale(1) ;
+        }
+        
+        25%{
+            transform: scale(1.02);
+            box-shadow: 10px 10px 10px #0d0d0d;
+        }
+
+        50%{
+            transform: scale(1.02);
+            box-shadow: 10px 10px 10px #0d0d0d;
+        }
+
+        75%{
+            transform: scale(1.02);
+            box-shadow: 10px 10px 10px #0d0d0d;
+        }
+
+        100%{
+          transform: scale(1);
+        }
+
+      }
+      
+      .japan img:hover{
+        animation: japanesefood;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+      }
+   
+    
+    /* contact page  */
+    .details{ grid-area: d1}
+    .location{ grid-area: l1}
+    .contactcard{ grid-area: l2;}
+
+    .contactpage{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        grid-template-rows: repeat(3,1fr);
+        grid-template-areas: 
+        'l1 l2'
+        'l1 l2'
+        'd1 d1'
+        ;
+        gap: 0.7rem;
+    }
+
+    /* 
+    adds style to about page
+    */
+
+    .cafebio{ grid-area: g1;}
+    .barista{ grid-area: g2;}
+        
+    .aboutus{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-areas: 'g1 g2';
+        gap: 0.7rem;
+        font-size: 1.1rem;
+    }
+    
+      }
+
